@@ -47,3 +47,15 @@
 - buat biodata tanpa input pakai variable dan display
 - buat biodata dengan input
 - buat login form dengan kondisi dan loop
+
+'## 'update error karena ada update extension yang mengubah package cara compile berubah sedikit
+| dari Main folder Java
+|javac -d . .\Materi1\biodata1.java  | jadi pakai fitur d(directori)
+|java -cp . Materi1.biodata1         | panggil pakai nama package nya
+
+| jika tidak ingin berubah hapus package pada baris 1
+| tetap di folder materi
+| javac .\biodata1.java             | langsung compile di folder tersebut
+| java -cp . biodata1               | hanya panggil class langsung dari folder tersebut
+
+'
