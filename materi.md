@@ -86,9 +86,70 @@ public class biodata1 {
     static  void sapa(String nama){
         System.out.print("Hallo "+nama);
     }
+
+    static String cekLulus(int nilai){
+        if (nilai>=80){
+            return "Lulus";
+        } else{
+            return "Gagal";
+        }
+    }
     
     public static void main(String[] args) {
             System.out.println("Hallo dari intro java"); // buat baris baru
             sapa("Jojo");
     }
 }
+
+
+#### tugas
+- combine array, for, method, input dan conditional
+
+- contoh project:
+1. Sistem Penilaian Siswa
+- Array: Menyimpan nilai-nilai siswa.
+- For loop: Menginput nilai siswa dan menampilkan hasil.
+- Method: Menghitung rata-rata nilai dan menentukan kelulusan.
+- Input: Meminta jumlah siswa dan nilai masing-masing.
+- Conditional: Menentukan apakah siswa lulus atau tidak berdasarkan nilai.
+2. Aplikasi Daftar Belanja
+- Array: Menyimpan daftar nama barang dan jumlahnya.
+- For loop: Menginput barang dan menampilkan daftar belanja.
+- Method: Menghitung total harga atau memeriksa ketersediaan barang.
+- Input: Meminta nama barang dan jumlah pembelian.
+- Conditional: Memeriksa apakah stok barang cukup atau tidak.
+3. Program Pengelolaan Data Karyawan
+- Array: Menyimpan data gaji atau jam kerja karyawan.
+- For loop: Memproses data setiap karyawan.
+- Method: Menghitung gaji total atau bonus berdasarkan jam kerja.
+- Input: Memasukkan data karyawan dan jam kerja.
+- Conditional: Memberikan bonus jika jam kerja melebihi batas tertentu.
+4. Aplikasi Pencarian Nama dalam Daftar
+- Array: Menyimpan daftar nama.
+- For loop: Melakukan pencarian nama dalam daftar.
+- Method: Mengecek keberadaan nama yang dicari.
+- Input: Memasukkan daftar nama dan nama yang dicari.
+- Conditional: Menampilkan hasil apakah nama ditemukan atau tidak.
+5. Program Kalkulator Statistik Sederhana
+- Array: Menyimpan data angka yang dimasukkan.
+- For loop: Menginput data dan menghitung nilai maksimum, minimum, dan rata-rata.
+- Method: Menghitung statistik seperti rata-rata, median, modus.
+- Input: Memasukkan sejumlah angka.
+- Conditional: Menentukan kategori data berdasarkan nilai statistik.
+6. Game Tebak Angka
+- Array: Menyimpan riwayat tebakan pemain.
+- For loop: Mengulangi proses tebakan hingga benar.
+- Method: Memeriksa tebakan dan memberikan petunjuk.
+- Input: Memasukkan tebakan angka.
+- Conditional: Memberikan petunjuk "terlalu besar", "terlalu kecil", atau "benar".
+
+### warna 
+public class ...
+    public static final String ANSI_RED = "\u001B[31m"
+    public static final String ANSI_RESET = "\u001B[0m"
+
+    public static void main(String[] args) {
+         System.out.println(ANSI_RED+"Hallo dari intro java"+ANSI_RESET)
+    }
+
+## Selesaikan Wordnotl dengan main menu, jumlah berapa kali tebak, menang, kalah,score , life 
