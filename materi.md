@@ -5,6 +5,18 @@
 - variable tidak boleh ada yang double dalam 1 class
 - System.out.println lebih baik dalam kompabilitas dari pada IO.println
 - jika pakai System input pakai Scanner dan harus di close
+## input output
+pakai Scanner untuk menerima output dari user, ini masih lebih version friendly karena masih bisa compability dengan versi sebelumnya
+
+import java.util.Scanner;// import library di awal
+
+Scanner input = new Scanner(System.in); // set object input di awal "main" method atau method yang ingin pakai input
+
+System.out.print("Masukkan nama 2 :");
+String name =  input.nextLine(); //pakai input untuk masukkan variable
+System.out.println("Nama kamu " + name); // panggil variable
+input.close(); // wajib di close agar tidak wasting resource
+
 
 ## tipe data
         int umur = 21;
@@ -57,5 +69,26 @@
 | tetap di folder materi
 | javac .\biodata1.java             | langsung compile di folder tersebut
 | java -cp . biodata1               | hanya panggil class langsung dari folder tersebut
-
 '
+
+## Array
+- menyimpan data dengan tipe yang sama
+
+- String[] buah = {"Apel","Banana","Ceri","DragonFruit"};
+- for (String b : buah){System.out.println(b);}
+- list menu, tampilan list pilihan,...
+
+## Method
+- membantu agar kode lebih modular dan mudah di manage / di debug
+
+public class biodata1 {
+    
+    static  void sapa(String nama){
+        System.out.print("Hallo "+nama);
+    }
+    
+    public static void main(String[] args) {
+            System.out.println("Hallo dari intro java"); // buat baris baru
+            sapa("Jojo");
+    }
+}

@@ -16,7 +16,7 @@ public class intro { // harus sama dengan nama file
 
         System.out.print("Masukkan nama 2 :");
         String name =  input.nextLine(); //pakai input untuk masukkan variable
-        System.out.println("Nama kamu" + name); // panggil variable
+        System.out.println("Nama kamu " + name); // panggil variable
 
         //primitive
         int umur = 21;
@@ -28,7 +28,7 @@ public class intro { // harus sama dengan nama file
         float berat = 23.3f;
         String mana= "Kambing";
 
-
+        input.close();
 
 
     }

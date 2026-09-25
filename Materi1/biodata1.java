@@ -1,11 +1,13 @@
 package Materi1;
 
 public class biodata1 {
+    
+    static  void sapa(String nama){
+        System.out.print("Hallo "+nama);
+    }
+    
     public static void main(String[] args) {
-        IO.println("Jumlah argumen: " + args.length);
-
-        for (int i = 0; i < args.length; i++) {
-            IO.println("Argumen " + i + ": " + args[i]);
-        }
+            System.out.println("Hallo dari intro java"); // buat baris baru
+            sapa("Jojo");
     }
 }
