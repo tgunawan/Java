@@ -152,4 +152,23 @@ public class ...
          System.out.println(ANSI_RED+"Hallo dari intro java"+ANSI_RESET)
     }
 
-## Selesaikan Wordnotl dengan main menu, jumlah berapa kali tebak, menang, kalah,score , life 
+char bisa pakai ==
+
+string pakai equals
+
+### Switch case
+ bukan kondisi tapi lebih ke pemilihan / selection
+
+contoh pemilihan hari:
+A
+A = Senin
+B = Selasa
+.
+.
+.
+
+
+
+### create a project with input, variable array, conditional, looping, and switch
+
+### next loop while break 
