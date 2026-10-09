@@ -18,15 +18,15 @@ public class intro { // harus sama dengan nama file
         String name =  input.nextLine(); //pakai input untuk masukkan variable
         System.out.println("Nama kamu " + name); // panggil variable
 
-        //primitive
-        int umur = 21;
-        double jarak = 3.4;
-        char karakter = 'f';
-        boolean benar = true;
+        // //primitive
+        // int umur = 21;
+        // double jarak = 3.4;
+        // char karakter = 'f';
+        // boolean benar = true;
 
-        //non Primitive
-        float berat = 23.3f;
-        String mana= "Kambing";
+        // //non Primitive
+        // float berat = 23.3f;
+        // String mana= "Kambing";
 
         input.close();
 

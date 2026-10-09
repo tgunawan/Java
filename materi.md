@@ -171,4 +171,8 @@ B = Selasa
 
 ### create a project with input, variable array, conditional, looping, and switch
 
-### next loop while break 
+##  Error Handling - try -catch
+- try: untuk mengecekan kode yang mungkin error
+- catch: untuk menangani error
+
+### project megalondon (tamagochi mode) pakai error handling, looping
