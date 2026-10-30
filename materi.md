@@ -1,4 +1,4 @@
-# Materi 1
+# Materi
 
 - pembuatan dan fungsi class
     nama class dalam file, harus sama dengan nama file
@@ -176,3 +176,46 @@ B = Selasa
 - catch: untuk menangani error
 
 ### project megalondon (tamagochi mode) pakai error handling, looping
+
+# OOP
+Object Oriented Programming => Java
+Functional Programming
+
+OOP = punya attribute dan behaviour / method
+- Inheritance = mewarisi sifat dari class parentnya
+- Encapsulation = menyembunyikan data /  mengamankan data agar tidak dapat langsung di akses
+- Polymorphism = satu method yang memiliki perilaku / hasil berbeda tergantung konteks
+- Abstraction = menampilkan fungsi penting
+
+### class dan object
+- class = blueprint
+- object = instance
+
+### constructor
+- untuk inisiasi object, dengan parameter
+
+### Encapsulation
+- di jadikan private agar tidak bisa di ubah dari luar class
+- selain variable dapat membuat method private
+
+### Inheritance
+- anak mewarisi attribut dan method dari parentnya
+- dengan menggunakan extends
+
+### polymorph
+- satu method dengan berbeda hasil antara class
+- jika child tidak ada method maka yang di tarik adalah method dari parent
+
+### abstraction
+- blueprint minimal yang wajib ada di child class
+- di tambahkan "abstract"
+- di abstract method harus di buat dengan tanpa isi
+
+### static dan final
+- static = variable milik class bukan object
+- final = nilai yang tidak bisa di ubah
+
+### buat project dengan OOP
+- Inheritance, Polymorph, Abstraction, encapsulation
+
+pakai Array list untuk construktor Potions
