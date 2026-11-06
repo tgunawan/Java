@@ -219,3 +219,38 @@ OOP = punya attribute dan behaviour / method
 - Inheritance, Polymorph, Abstraction, encapsulation
 
 pakai Array list untuk construktor Potions
+
+
+# File handling
+ ### Array List
+ - data dari file umumnya di taruh di array
+
+ ## java.nio.file.
+
+
+ Project Todolist atau simple notebook
+
+# UI
+
+library : 
+- javax.swing.*;
+- jawa.awt.*;
+
+Komponen:
+- JFrame : Jendela utama aplikasi
+- JPanel : wadah untuk mengelompokkan komponen
+- JLabel : Tampilkan teks
+- JButton: Buat tombol yang bisa di klik
+- JTextField: Input teks 1 baris
+- JTextArea: Input atau display teks banyak baris
+- JCheckBox: Pilihan checklist bisa multiple answer
+- JRadioButton: Pilihan tunggal / 1 pilhan dari beberapa opsi
+- JcomboBox : Dropdown
+- JList : Daftar list
+- JTable : Menampilkan dalam bentuk tabel
+- JScrollPane : Menambahkan scrollbar
+- JOptionPane : dialog pesan / input sederhana
+
+
+
+

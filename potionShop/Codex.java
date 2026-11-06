@@ -4,7 +4,7 @@ public class Codex {
         target.Effect();        
     }
     public static void main(String[] args) {
-        Speed potion1 = new Speed();
+        Speed2 potion1 = new Speed2();
         Strength potion2 = new Strength();
         Health potion3 = new Health();
         // potion1.SideEffect();
