@@ -232,11 +232,11 @@ pakai Array list untuk construktor Potions
 
 # UI
 
-library : 
+## library : 
 - javax.swing.*;
 - jawa.awt.*;
 
-Komponen:
+## Komponen:
 - JFrame : Jendela utama aplikasi
 - JPanel : wadah untuk mengelompokkan komponen
 - JLabel : Tampilkan teks
@@ -251,6 +251,7 @@ Komponen:
 - JScrollPane : Menambahkan scrollbar
 - JOptionPane : dialog pesan / input sederhana
 
+## Event Handling
 
 
-
+next buat event kalau ada yang kosong
