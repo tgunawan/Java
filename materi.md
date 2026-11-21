@@ -253,5 +253,10 @@ pakai Array list untuk construktor Potions
 
 ## Event Handling
 
+tombol.addActionListener(event -> {});
 
-next buat event kalau ada yang kosong
+## fokus layout management
+
+setLayout(null); // hindari sering pakai
+component.setBounds(....);
+
